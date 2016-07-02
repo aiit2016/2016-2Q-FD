@@ -1,2 +1,2 @@
 # 2016-2Q-FD
-Repository for frameword development course
+Repository for framework development course
