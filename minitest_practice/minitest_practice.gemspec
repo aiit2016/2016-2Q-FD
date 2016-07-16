@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gem_minitest/version'
+require 'minitest_practice/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gem_minitest"
-  spec.version       = GemMinitest::VERSION
+  spec.name          = "minitest_practice"
+  spec.version       = MinitestPractice::VERSION
   spec.authors       = ["Koala Cheung"]
   spec.email         = ["a1624jz@aiit.ac.jp"]
 
