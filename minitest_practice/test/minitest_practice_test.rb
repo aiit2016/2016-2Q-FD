@@ -28,6 +28,7 @@ class MinitestPracticeTest < Minitest::Test
 
   def test_enough_length?
     refute @main.enough_length?('s1'), 's1 has not enough length'
+    assert @main.enough_length?('s004'), 's004 has enough length'
   end
 end
 
