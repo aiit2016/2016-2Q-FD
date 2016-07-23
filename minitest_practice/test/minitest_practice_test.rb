@@ -19,4 +19,15 @@ class MinitestPracticeTest < Minitest::Test
     assert @main.odd?(3), '3 is odd'
     refute @main.odd?(4), '4 is not odd'
   end
+
+  def test_check_number?
+    refute @main.check_number?(1), 'check_number(1) is false'
+    assert @main.check_number?(2222), 'check_number(2222) is true'
+    assert_equal false, @main.check_number?(2223), 'check_number(2223) is false'
+  end
+
+  def test_enough_length?
+    refute @main.enough_length?('s1'), 's1 has not enough length'
+  end
 end
+
